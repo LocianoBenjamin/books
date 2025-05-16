@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lociano Benjamin - Books</title>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <script src="https://kit.fontawesome.com/d188483393.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="largenav">
+        <div class="topnav">
+            <button onclick="sidenav()" class="page"><i class="fa-solid fa-bars"></i></button>
+            <a href="Home.html" class="page">Home</a>
+            <a href="Books.html" class="page">Books</a>
+            <a href="Contact.html" class="page">Contact</a>
+        </div>
+
+        <div class="topnavright">
+            <button class="social far" id="instagram" onclick="instagram()"><i class="fa-brands fa-instagram"></i></button>
+            <button class="social" id="linkedin" onclick="linkedin()"><i class="fa-brands fa-linkedin-in"></i></button>
+            <button class="social" id="X" onclick="x()"><i class="fa-brands fa-x-twitter"></i></button>
+        </div>
+    </div> 
+
+    <div class="smallnav">
+        <div class="bar">
+            <button onclick="sidenav()" class="page"><i class="fa-solid fa-bars "></i></button>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:void(0)" class="close page" onclick="closenav()" style="float: right;">&times;</a><br>
+            <a href="Home.html" class="page">Home</a><br>
+            <a href="Books.html" class="page">Books</a><br>
+            <a href="Contact.html" class="page">Contact</a><br>
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="imgdiv">
+            <img src="500years.jpg" alt="" class="img">
+        </div>
+
+        <div class="textdiv"><br><br><br>
+            <h1 class="title">500 Years of Exploitation</h1><br><br>
+            <p class="description">On the fifth of December 1492, Christopher Columbus discovered Haiti, and he was surprised by the beauty of the sight seen; he called it 'pearl of the islands.' Five hundred years later, the beauty is still there, but it has been the scene of rampant exploitation, poverty, resistance, and revolt. Half a century before the abolition of slavery in the United States, the Haitian slaves had the extraordinary audacity to chase their masters and proclaimed the first Black Republic of the world. 500 Years of Exploitation explores what role Haitian expatriates and the international community and can play in this tragic nation's transition from survival to developing country.</p><br><br>
+            <button class="buy" id="buy" onclick="buyfive()">Buy Book <i class="fa-brands fa-amazon"></i></button><br>
+        </div>
+    </div>
+
+    <div class="one">
+        <div class="textdivtwo">
+            <h1 class="title">A Perilous Life</h1><br><br>
+            <p class="description">A Perilous Life, this novel originally published in French in 2017, is a must-read. The award-winning author, Lociano Benjamin, paints with maestria the life journey of an unfortunate soul who left his birthplace behind to settle in New York City where he would find tribulations and perilous events. Some are more challenging than others. He had to face them all and persevere until he saw the light at the end of the tunnel. “Who am I? In the delusion and frenzy of life, feeling helpless, I want to sink—to bury myself on this white beach with warm sand, still, at this hour of dusk. Some would envy me, seeing me lean against a convertible car in my white linen suit, my eyes lost on the glowing horizon of this Caribbean coast, but I know better…”</p><br><br>
+            <button class="buy" id="buy" onclick="buypoet()">Buy Book <i class="fa-brands fa-amazon"></i></button>
+        </div>
+
+        <div class="imgdivtwo">
+            <img src="Perilous.jpg" alt="" class="imgtwo">
+        </div>
+    </div>
+</body>
+</html>

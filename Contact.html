@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/d188483393.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a href="Home.html" class="page">Home</a>
+        <a href="Books.html" class="page">Books</a>
+        <a href="Contact.html" class="page">Contact</a>
+    </div>
+
+    <div class="topnavright">
+        <button class="social far" id="instagram" onclick="instagram()"><i class="fa-brands fa-instagram"></i></button>
+        <button class="social" id="linkedin" onclick="linkedin()"><i class="fa-brands fa-linkedin-in"></i></button>
+        <button class="social" id="X" onclick="x()"><i class="fa-brands fa-x-twitter"></i></button>
+    </div>
+
+    <div class="smallnav">
+        <div class="bar">
+            <button onclick="sidenav()" class="page"><i class="fa-solid fa-bars "></i></button>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:void(0)" class="close page" onclick="closenav()" style="float: right;">&times;</a><br>
+            <a href="Home.html" class="page">Home</a><br>
+            <a href="Books.html" class="page">Books</a><br>
+            <a href="Contact.html" class="page">Contact</a><br>
+        </div>
+    </div>
+
+    <div class="big">
+        <h1 class="title">Contact Me</h1><br>
+        <p class="Blurb">I Love Going to Book Signings and Meeting the People Who Read my Books</p><br><br>
+
+        <button class="email" onclick="email()">Email Me</button><br><br><br>
+
+        <div class="socialblock">
+            <div class="insta soc">
+                <p class="follow">Follow Me On Instagram:</p><br><br>
+                <button class="socialLink" onclick="instagram()">Instagram <i class="fa-brands fa-instagram"></i></button>
+            </div>
+
+            <div class="link soc">
+                <p class="follow">Add Me On Linkedin:</p><br><br>
+                <button class="socialLinkOne" onclick="linkedin()">Linkedin <i class="fa-brands fa-linkedin-in"></i></button>
+            </div>
+
+            <div class="x soc">
+                <p class="follow">Follow Me On X:</p><br><br>
+                <button class="socialLink" onclick="x()">X <i class="fa-brands fa-x-twitter"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="small">
+        <h1 class="title">Contact Me</h1><br>
+        <p class="Blurb">I Love Going to Book Signings and Meeting the People Who Read my Books</p><br><br>
+        <button class="email" onclick="email()">Email Me</button><br><br>
+
+        <button class="socialLink" onclick="instagram()">Instagram <i class="fa-brands fa-instagram"></i></button>
+        <button class="socialLinkOne" onclick="linkedin()">Linkedin <i class="fa-brands fa-linkedin-in"></i></button>
+        <button class="socialLink" onclick="x()">X <i class="fa-brands fa-x-twitter"></i></button>
+    </div>
+</body>
+</html>

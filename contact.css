@@ -1,0 +1,99 @@
+body {
+    background-color: #BFDBF7;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+.soc {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    background-color: white;
+}
+
+.link {
+    background-color: #E1E5F2;
+}
+
+.socialLink {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 2.2vw;
+    width: 10vw;
+    background-color: #E1E5F2;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.socialLink:hover {
+    background-color: white;
+    transition: 1.5s;
+}
+
+.socialLinkOne {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 2.2vw;
+    width: 10vw;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.socialLinkOne:hover {
+    background-color: #E1E5F2;
+    transition: 0.75s;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 3vw;
+    width: 10vw;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #BFDBF7;
+    transition: 0.75s;
+}
+
+@media(min-width: 600px) {
+    .big {
+        display: block;
+    }
+
+    .small {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .big {
+        display: none;
+    }
+
+    .socialLink, .socialLinkOne {
+        margin-bottom: 5vh;;
+    }
+
+    .small {
+        display: block;
+        background-color: #BFDBF7;
+    }
+}

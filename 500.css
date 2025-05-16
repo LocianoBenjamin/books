@@ -1,0 +1,35 @@
+.topnav {
+    width: 50%;
+    height: 5vh;
+    float: left;
+    background-color: grey;
+}
+
+.link {
+    font-size: 3vh;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
+
+.topnavright {
+    width: 50%;
+    float: right;
+    background-color: grey;
+    height: 5vh;
+}
+
+.social {
+    width: 4vh;
+    height: 4vh;
+    margin-top: 0.5vh;
+    border-radius: 50px;
+    border: none;
+    background-color: lightgray;
+    font-size: 2vh;
+    float: right;
+    margin-right: 1vh;
+}
+
+.social:hover {
+    background-color: rgb(238, 238, 238);
+}

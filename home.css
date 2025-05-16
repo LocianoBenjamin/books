@@ -1,0 +1,67 @@
+.far {
+    margin-right: 4vh;
+}
+
+.social:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.page:hover {
+    text-decoration: underline;
+}
+
+.namehead {
+    background-color: #BFDBF7;
+    font-size: 6vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.about, .aboutimg{
+    background-color: #E1E5F2;
+}
+
+.aboutimg {
+    float: left;
+    width: 40%;
+    height: 45vh;
+} 
+
+.about {
+    float: right;
+    width: 55%;
+    height: 45vh;
+    padding-right: 5%;
+}
+
+.at {
+    margin-top: 6vh;
+}
+
+.ai {
+    width: 30vw;
+    margin-top: 6vh;
+    margin-left: 5vw;
+    margin-bottom: 4vh;
+}
+
+.contact {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #F7F7F7;
+}
+
+.books {
+    background-color: #BFDBF7;
+}
+
+.container {
+    text-align: center;
+}
+
+.book {
+    height: 40vh;
+    margin-left: 7vw;
+}
